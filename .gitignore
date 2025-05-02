@@ -16,6 +16,18 @@
 *.dylib
 *.dll
 
+# Executables
+*.exe
+*.out
+*.app
+
+# Main executables but keep main.cpp
+main
+!main.cpp
+
+# VS Code settings folder
+.vscode/
+
 # Fortran module files
 *.mod
 *.smod
